@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+body {
+    background-color:lightcyan;
+}
+
+ .flex-container {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+ }    
+ .flex-container > div {
+     background-color: cadetblue;
+     margin:30px;
+     width: 240px;
+     text-align: center;
+     font-size: 20px;
+ }
+ h1 {
+    text-align: center;
+    color:teal
+ }
+    </style>
+</head>
+<body>
+<h1>Flowers Type</h1>
+
+<div class="flex-container">
+    <div>
+     <img src="flower3.jpg" width="100px" height="150px"> 
+     <p>flower, the characteristic reproductive<br> structure of angiosperms. <br>
+        As popularly used, the term “flower” <br>especially applies when part or <br>
+        all of the reproductive structure <br>is distinctive in colour and form.<br> </p> 
+     </div> 
+      <div>
+        <img src="photo.jpg" width="100px" height="150px">
+        <P> flower, the characteristic reproductive<br> structure of angiosperms. <br>
+            As popularly used, the term <br>“flower” especially applies when part or <br>
+            all of the reproductive structure is<br> distinctive in colour and form.<br>
+     </P>
+      </div> 
+       <div>
+        <img src="images.jpg" width="100px" height="150px">
+        <P>
+            flower, the characteristic reproductive<br>  structure of angiosperms. <br>
+            As popularly used, the term <br>“flower” especially applies when part or <br>
+            all of the reproductive structure is<br> distinctive in colour and form.<br>
+         </P>
+        </div>
+</div> 
+</body>
+</html>

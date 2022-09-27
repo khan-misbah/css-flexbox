@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      .item1 {grid-area: one ;}
+      .item2 {grid-area: two;}
+      .item3 {grid-area: three;}
+      .item4 {grid-area: four;}
+      .item5 {grid-area: five;}
+      .item6 {grid-area: six;}
+      .item7 {grid-area: seven;}
+       
+    .grid-container {
+        display: grid;
+     grid-template-areas: 'one one  two  two three three three'
+                          'four four four four four four four '
+                          'five five five five five five five'
+                          'six six six seven seven seven seven';
+                          
+             gap:20px;
+             background-color:teal;
+             padding: 20px;
+             margin: 120px;
+             border: 5px solid black;
+              }
+    .grid-container > div {
+        background-color:paleturquoise;
+        text-align: center;
+        font-size: 20px ;
+        padding: 50px 0;
+        
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+     <div class="item1">1</div>
+     <div class="item2">2</div>
+     <div class="item3">3</div>
+     <div class="item4">4</div>
+     <div class="item5">5</div>
+     <div class="item6">6</div>
+     <div class="item7">7</div> 
+    </div>
+</body>
+</html>
